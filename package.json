@@ -1,0 +1,24 @@
+{
+  "name": "playwrightautomationproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "playwright-core": "^1.25.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.25.1"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chvsrc/PlaywrightAutomationProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chvsrc/PlaywrightAutomationProject/issues"
+  },
+  "homepage": "https://github.com/chvsrc/PlaywrightAutomationProject#readme"
+}
