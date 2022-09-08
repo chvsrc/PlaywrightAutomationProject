@@ -48,7 +48,7 @@ const config: PlaywrightTestConfig = {
     {
       name: 'Microsoft Edge',
       use: {
-        ...devices['msedge'],
+        channel: 'msedge',
       },
     },
 
