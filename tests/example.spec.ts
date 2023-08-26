@@ -2,14 +2,18 @@ import { chromium, expect, test } from '@playwright/test';
 
 const log = async (page) => {
   while (true) {
-    const [response] = await Promise.all([
-      page.waitForResponse(res => res.status() == 200
-        &&
-        res.url().toString().includes("days")
-      ),
-    ]);
-    const responseData = await response.json();
-    console.log(responseData);
+    try {
+      const [response] = await Promise.all([
+        page.waitForResponse(res => res.status() == 200
+          &&
+          res.url().toString().includes("days")
+        ),
+      ]);
+      const responseData = await response.json();
+      console.log(responseData);
+    } catch (error) {
+      console.log(error);
+    }
   }
 }
 
