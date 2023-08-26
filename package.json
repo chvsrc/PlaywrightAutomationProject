@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "playwright-core": "^1.25.1"
-  },
-  "devDependencies": {
-    "@playwright/test": "^1.25.1"
-  },
   "scripts": {},
   "repository": {
     "type": "git",
@@ -20,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/chvsrc/PlaywrightAutomationProject/issues"
   },
-  "homepage": "https://github.com/chvsrc/PlaywrightAutomationProject#readme"
+  "homepage": "https://github.com/chvsrc/PlaywrightAutomationProject#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  }
 }
